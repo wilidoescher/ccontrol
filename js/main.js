@@ -142,4 +142,11 @@ function validation() {
     }
 }
 
+function deletList() {
+    if(confirm("Delete this list?")) {
+        list = [];
+        setList(list);
+    }
+}
+
 setList(list);
